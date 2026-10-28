@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1a">
+
+  <title>Welcome to GMOC | Tech Tussle</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      background:
+        radial-gradient(circle at top, #183568, transparent 55%),
+        #080d1a;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      text-align: center;
+      padding: 48px 28px;
+      border: 1px solid #30415f;
+      border-radius: 24px;
+      background: rgba(15, 25, 46, 0.94);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-bottom: 24px;
+      border: 1px solid #d4af37;
+      border-radius: 30px;
+      color: #f5d76e;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 7vw, 54px);
+      margin-bottom: 16px;
+    }
+
+    h1 span {
+      color: #f5d76e;
+    }
+
+    .description {
+      max-width: 520px;
+      margin: 0 auto 30px;
+      color: #c2ccdc;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .start-button {
+      display: inline-block;
+      padding: 16px 32px;
+      border: none;
+      border-radius: 10px;
+      background: #e5bd45;
+      color: #101827;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .start-button:hover {
+      background: #ffda70;
+      transform: translateY(-2px);
+    }
+
+    .start-button:focus-visible {
+      outline: 3px solid white;
+      outline-offset: 4px;
+    }
+
+    .notice {
+      margin-top: 22px;
+      color: #93a4bd;
+      font-size: 13px;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: #71819a;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="tag">GMOC PRESENTS</div>
+
+    <h1>Welcome to <span>GMOC</span></h1>
+
+    <p class="description">
+      Welcome to Tech Tussle!
+      Get ready to showcase your coding skills,
+      solve challenges, and give it your best.
+    </p>
+
+    <a
+      class="start-button"
+      href="http://34.180.47.33:3000//"
+    >
+      Start Exam &rarr;
+    </a>
+
+    <p class="notice">
+      Please ensure you are ready before starting your exam.
+    </p>
+
+    <footer>
+      &copy; 2026 GMOC · Tech Tussle
+    </footer>
+  </main>
+</body>
+</html>
